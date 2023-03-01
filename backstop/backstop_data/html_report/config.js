@@ -1,0 +1,353 @@
+report({
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Same_page_0_document_0_phone.png",
+        "test": "../bitmaps_test/20230301-234005/backstop_default_Same_page_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Same_page_0_document_0_phone.png",
+        "label": "Same page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://demo.ddev.site/blog/",
+        "referenceUrl": "https://demo.ddev.site/blog/",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Same_page_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20230301-234005/backstop_default_Same_page_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Same_page_0_document_1_tablet.png",
+        "label": "Same page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://demo.ddev.site/blog/",
+        "referenceUrl": "https://demo.ddev.site/blog/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 149
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Color_difference_0_document_0_phone.png",
+        "test": "../bitmaps_test/20230301-234005/backstop_default_Color_difference_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Color_difference_0_document_0_phone.png",
+        "label": "Color difference",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://demo.ddev.site/blog-color/",
+        "referenceUrl": "https://demo.ddev.site/blog/",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -1
+          },
+          "rawMisMatchPercentage": 2.494436003338398,
+          "misMatchPercentage": "2.49",
+          "analysisTime": 115
+        },
+        "diffImage": "../bitmaps_test/20230301-234005/failed_diff_backstop_default_Color_difference_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Color_difference_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20230301-234005/backstop_default_Color_difference_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Color_difference_0_document_1_tablet.png",
+        "label": "Color difference",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://demo.ddev.site/blog-color/",
+        "referenceUrl": "https://demo.ddev.site/blog/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -1
+          },
+          "rawMisMatchPercentage": 0.9859891375416072,
+          "misMatchPercentage": "0.99",
+          "analysisTime": 203
+        },
+        "diffImage": "../bitmaps_test/20230301-234005/failed_diff_backstop_default_Color_difference_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Mobile_difference_0_document_0_phone.png",
+        "test": "../bitmaps_test/20230301-234005/backstop_default_Mobile_difference_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Mobile_difference_0_document_0_phone.png",
+        "label": "Mobile difference",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://demo.ddev.site/blog-mobile/",
+        "referenceUrl": "https://demo.ddev.site/blog/",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Mobile_difference_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20230301-234005/backstop_default_Mobile_difference_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Mobile_difference_0_document_1_tablet.png",
+        "label": "Mobile difference",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://demo.ddev.site/blog-mobile/",
+        "referenceUrl": "https://demo.ddev.site/blog/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.29322421224732464,
+          "misMatchPercentage": "0.29",
+          "analysisTime": 186
+        },
+        "diffImage": "../bitmaps_test/20230301-234005/failed_diff_backstop_default_Mobile_difference_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Without_cookie_0_document_0_phone.png",
+        "test": "../bitmaps_test/20230301-234005/backstop_default_Without_cookie_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Without_cookie_0_document_0_phone.png",
+        "label": "Without cookie",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://demo.ddev.site/cookie/",
+        "referenceUrl": "https://demo.ddev.site/cookie/",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Without_cookie_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20230301-234005/backstop_default_Without_cookie_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Without_cookie_0_document_1_tablet.png",
+        "label": "Without cookie",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://demo.ddev.site/cookie/",
+        "referenceUrl": "https://demo.ddev.site/cookie/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_With_cookie_0_document_0_phone.png",
+        "test": "../bitmaps_test/20230301-234005/backstop_default_With_cookie_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_With_cookie_0_document_0_phone.png",
+        "label": "With cookie",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://demo.ddev.site/cookie/",
+        "referenceUrl": "https://demo.ddev.site/cookie/",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_With_cookie_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20230301-234005/backstop_default_With_cookie_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_With_cookie_0_document_1_tablet.png",
+        "label": "With cookie",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://demo.ddev.site/cookie/",
+        "referenceUrl": "https://demo.ddev.site/cookie/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_After_click_0_document_0_phone.png",
+        "test": "../bitmaps_test/20230301-234005/backstop_default_After_click_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_After_click_0_document_0_phone.png",
+        "label": "After click",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://demo.ddev.site/after-click/",
+        "referenceUrl": "https://demo.ddev.site/after-click/",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_After_click_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20230301-234005/backstop_default_After_click_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_After_click_0_document_1_tablet.png",
+        "label": "After click",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://demo.ddev.site/after-click/",
+        "referenceUrl": "https://demo.ddev.site/after-click/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Without_click_0_document_0_phone.png",
+        "test": "../bitmaps_test/20230301-234005/backstop_default_Without_click_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Without_click_0_document_0_phone.png",
+        "label": "Without click",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://demo.ddev.site/after-click/",
+        "referenceUrl": "https://demo.ddev.site/after-click/",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Without_click_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20230301-234005/backstop_default_Without_click_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Without_click_0_document_1_tablet.png",
+        "label": "Without click",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://demo.ddev.site/after-click/",
+        "referenceUrl": "https://demo.ddev.site/after-click/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "id": "backstop_default"
+});

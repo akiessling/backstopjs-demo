@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BackstopJS" tests="14" failures="3" errors="3" skipped="0">
+    <testcase classname="document" name=" ›› Same page"/>
+    <testcase classname="document" name=" ›› Same page"/>
+    <testcase classname="document" name=" ›› Color difference">
+      <failure message="Design deviation ›› Color difference (document) component"/>
+      <error message="Design deviation ›› Color difference (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› Color difference">
+      <failure message="Design deviation ›› Color difference (document) component"/>
+      <error message="Design deviation ›› Color difference (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› Mobile difference"/>
+    <testcase classname="document" name=" ›› Mobile difference">
+      <failure message="Design deviation ›› Mobile difference (document) component"/>
+      <error message="Design deviation ›› Mobile difference (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› Without cookie"/>
+    <testcase classname="document" name=" ›› Without cookie"/>
+    <testcase classname="document" name=" ›› With cookie"/>
+    <testcase classname="document" name=" ›› With cookie"/>
+    <testcase classname="document" name=" ›› After click"/>
+    <testcase classname="document" name=" ›› After click"/>
+    <testcase classname="document" name=" ›› Without click"/>
+    <testcase classname="document" name=" ›› Without click"/>
+  </testsuite>
+</testsuites>
