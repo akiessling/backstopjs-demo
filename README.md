@@ -4,3 +4,6 @@ Come and join us! https://www.meetup.com/de-DE/typo3-usergroup-chemnitz-sudwests
 
 A little setup hint:
 I run BackstopJS locally for my tests, not inside a container. If you want to run it fully virtualized, you might have to take a look at https://hub.docker.com/r/backstopjs/backstopjs/
+
+
+My used code: https://gist.github.com/akiessling/f57bdf10b9f90431a8aa502db437de2f
